@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <BaseOutputPath>..\..\build\artifacts\$(AssemblyName)\bin</BaseOutputPath>
     <BaseIntermediateOutputPath>..\..\build\artifacts\$(AssemblyName)\obj</BaseIntermediateOutputPath>
     <Title>MonoStereo.Pipeline</Title>
