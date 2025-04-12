@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <BaseOutputPath>..\..\build\artifacts\$(AssemblyName)\bin</BaseOutputPath>
     <BaseIntermediateOutputPath>..\..\build\artifacts\$(AssemblyName)\obj</BaseIntermediateOutputPath>
     <Title>MonoStereo.Pipeline</Title>
@@ -42,10 +42,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="MonoGame.Framework.Content.Pipeline" Version="3.8.2.1105">
+    <PackageReference Include="MonoGame.Framework.Content.Pipeline" Version="3.8.3">
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.2.1105">
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.3">
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
     <PackageReference Include="NAudio" Version="2.2.1" />
